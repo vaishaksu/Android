@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">User Registration</string>
+    <string name="register_adduser">ADD USER</string>
+</resources>

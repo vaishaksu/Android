@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select traffic image below">
+
+            </TextView>
+
+        <LinearLayout
+            android:id="@+id/firstLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/t1"
+                android:layout_width="110dp"
+                android:layout_height="247dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:foreground="@drawable/tl"
+
+
+                />
+
+            <ImageView
+                android:id="@+id/t2"
+                android:layout_width="110dp"
+                android:layout_height="247dp"
+                android:layout_marginStart="7dp"
+
+                android:layout_marginTop="10dp"
+                android:foreground="@drawable/m1"
+
+                />
+
+            <ImageButton
+                android:id="@+id/t3"
+                android:layout_width="110dp"
+                android:layout_height="247dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:foreground="@drawable/m2" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/firstLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageButton
+                android:id="@+id/t4"
+                android:layout_width="124dp"
+                android:layout_height="238dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:foreground="@drawable/m3"
+
+                />
+
+            <ImageButton
+                android:id="@+id/t5"
+                android:layout_width="109dp"
+                android:layout_height="234dp"
+                android:layout_marginStart="19dp"
+
+                android:layout_marginTop="16dp"
+                android:foreground="@drawable/m4"
+
+                />
+
+            <ImageButton
+                android:id="@+id/v2"
+                android:layout_width="121dp"
+                android:layout_height="256dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:foreground="@drawable/duck"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/firstLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <ImageButton
+                android:id="@+id/v3"
+                android:layout_width="104dp"
+                android:layout_height="276dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="17dp"
+                android:foreground="@drawable/koker"
+
+                />
+
+            <ImageButton
+                android:id="@+id/v4"
+                android:layout_width="97dp"
+                android:layout_height="257dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="16dp"
+                android:foreground="@drawable/rabbit"
+
+                />
+
+            <ImageButton
+                android:id="@+id/v5"
+                android:layout_width="126dp"
+                android:layout_height="288dp"
+                android:layout_marginTop="5dp"
+                android:foreground="@drawable/zebra"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/firstLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:text="I'm not a robot"
+
+                />
+
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/firstLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/bsubmit"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="4dp"
+                    android:text="Submit"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".UserValidationActivity">-->
+
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
